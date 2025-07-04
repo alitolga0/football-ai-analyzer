@@ -10,8 +10,8 @@ const NodeCache = require("node-cache");
 const app = express();
 const port = 3000;
 
-const FOOTBALL_API_KEY = "408ea722b20e47e5889465d0b0cf50fc";
-const GEMINI_API_KEY = "AIzaSyByAFQiOZYzdY4nsjLYSR7mxhC_bHnXoVE";
+const FOOTBALL_API_KEY = "key";
+const GEMINI_API_KEY = "key";
 
 const API_URL = "https://api.football-data.org/v4";
 const DEFAULT_SEASON = 2024;
