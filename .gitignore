@@ -1,0 +1,55 @@
+# =======================
+# General
+# =======================
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =======================
+# Frontend (Vue, React vs)
+# =======================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Optional IDE ignores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =======================
+# Backend - .NET Core API
+# =======================
+api/bin/
+api/obj/
+api/*.db
+api/*.sqlite
+api/*.sqlite3
+api/*.log
+api/*.user
+api/.vs/
+api/.vscode/
+api/.env
+
+# For Secrets (if used)
+secrets.json
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+
+# Others
+Thumbs.db
